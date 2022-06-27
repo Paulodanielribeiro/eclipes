@@ -1,0 +1,27 @@
+.login-button {
+    display: flex;
+    width: 300px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 5px rgb(16, 16, 199);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.login-button:hover {
+    border-bottom: 4px solid antiquewhite;
+  }
+
+.login-button img {
+    width: 24px;
+    margin-right: 20px;
+
+}
+
+.login-button span {
+    font-family: 'bold';
+    font-size: 120%;
+}
